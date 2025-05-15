@@ -27,8 +27,11 @@ A tool that automatically generates Python scripts based on user descriptions an
    ```
 3. Create a `.env` file with the required API credentials:
    ```
-   AZURE_OPENAI_ENDPOINT=your_endpoint
-   AZURE_OPENAI_API_KEY=your_api_key
+   GLOBAL_LLM_SERVICE="***"
+   AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="***"
+   AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME="***"
+   AZURE_OPENAI_ENDPOINT="***"
+   AZURE_OPENAI_API_KEY="***"
    ```
 
 ## Usage
